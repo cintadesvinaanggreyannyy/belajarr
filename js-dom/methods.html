@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DOM Methods</title>
+</head>
+<body>
+    <h1 id="judul">DOM Methods</h1>
+    <p id="paragraf-1">Lorem ipsum dolor . . . </p>
+
+    <script>
+        const paragraf1 = document.getElementById("paragraf-1");
+
+        //menampilkan isi teks dari elemen dengan id paragraf- 1
+        console.info(paragraf1.innerText);
+        //mengubah isi teks elemen paragraf-1
+        paragraf1.innerText="Bukan lorem";
+
+        paragraf1.style.color = "red";
+        paragraf1.style.fontFamily = "cursive";
+    </script>
+</body>
+</html>
